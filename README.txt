@@ -6,6 +6,7 @@ There are a couple things to note with this project:
 
 3. You must have a raspberry pi camera that plugs into a camera slot, as this project is not configured for usb cameras
 
+I am not responsible for any of the actions taken using this program
 Thank you and enjoy!
 
 Elvin
