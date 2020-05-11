@@ -23,9 +23,9 @@ camera.capture(filename)
 time.sleep(1)
 pir.wait_for_no_motion()
 
-email_user = 'elsellan@gmail.com'
+email_user = 'enter email here'
 email_password = ‘place your email password here’
-email_send = 'elsellan@gmail.com'
+email_send = 'enter email here'
 
 subject = 'Python'
 
@@ -40,7 +40,8 @@ msg.attach(MIMEText(body,'plain'))
 filename='intruder.jpg'
 attachment  =open(filename,'rb')
 
-part = MIMEBase('application','octet-stream')
+
+part = MIMEBase('application','octet-stream')
 part.set_payload((attachment).read())
 encoders.encode_base64(part)
 part.add_header('Content-Disposition',"attachment; filename= "+filename)
